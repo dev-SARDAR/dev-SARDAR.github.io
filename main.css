@@ -187,7 +187,7 @@ label {
 
 .windows-container,
 .windows-form {
-    margin: 0 auto;
+    margin: 0 0;
     height: 100%;
 }
 
@@ -268,17 +268,26 @@ label {
 }
 
 .windows-header {
-    height: 25px;
+    height: 30px;
     position: relative;
     text-align: left;
     color: #fff;
     padding: .25em .75em;
     line-height: 1.4;
+    font-size: larger;
     border-top: 1px solid silver;
     border-left: 1px solid silver;
     border-right: 2px solid silver;
     border-bottom: 1px solid silver;
     background: navy;
+}
+
+.windows-form {
+    width: 27.5%;
+    height: 75%;
+    left: 7.5%;
+    top: 2.5%;
+    font-family: px_sans_nouveaux;
 }
 
 .windows-button {
@@ -300,6 +309,26 @@ label {
     font-family: px_sans_nouveaux;
     font-size: 12.5px;
     letter-spacing: 1.25px;
+}
+
+.icon-inner-container h2 {
+    font-size: 20px;
+    font-weight: 750;
+    letter-spacing: 1.25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-outer-container p {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 1.8;
 }
 
 .windows-button:active {
@@ -330,7 +359,7 @@ label {
 }
 
 .form-content {
-    padding: 10px 10px 35px
+    padding: 10px 10px 40px
 }
 
 .icon-wrap {
@@ -444,7 +473,6 @@ label {
     width: auto;
 
     /* gap: 20px; */
-
     align-items: center;
     margin: auto;
     position: absolute;
@@ -821,6 +849,21 @@ details[open] .start-button {
     border-top: 1px solid gray;
     border-left: 1px solid gray
 }
+
+.whats-new {
+    float: right;
+    padding: 0 10px;
+    border-top: 2px solid #efefef;
+    border-left: 2px solid #efefef;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    background-color: #c6c6c6;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 12.5%;
+}
+
 
 @media (max-width: 768px) {
     .windows-container {
